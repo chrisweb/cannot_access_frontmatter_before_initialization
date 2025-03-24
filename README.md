@@ -1,6 +1,6 @@
 # ReferenceError: Cannot access 'frontmatter' before initialization
 
-Investigating a problem that might be related to remark-mdx-frontmatter (not confirmed yet)
+Investigating a problem that might be related to [remark-mdx-frontmatter](https://github.com/remcohaszing/remark-mdx-frontmatter/issues/17) (not confirmed yet)
 
 ```shell
  ⨯ ReferenceError: Cannot access 'frontmatter' before initialization
@@ -10,6 +10,8 @@ Investigating a problem that might be related to remark-mdx-frontmatter (not con
   page: '/'
 }
 ```
+
+ticket on github: <https://github.com/remcohaszing/remark-mdx-frontmatter/issues/17>
 
 ## reproduction
 
@@ -26,3 +28,6 @@ npm run dev
 ```
 
 visit localhost:3000 in your browser
+
+> [!IMPORTANT]  
+> when installing different versions of packages, after each update make sure to delete the next.js cache
